@@ -61,3 +61,11 @@ Using the CORE emulator as the testing platform, the primary objectives include:
 
 * Implement a mechanism for clients to request content and receive it from the nearest node.
 * Optimize data transmission to minimize network traffic and the number of content transfer flows.
+
+## How to deploy the project
+
+- Make your core network setup 
+- Edit the xml config file and specify if each node is a client, RP or just a intermediate node
+- Run `make` to deploy the project (*you have to do this in each node*)
+
+
